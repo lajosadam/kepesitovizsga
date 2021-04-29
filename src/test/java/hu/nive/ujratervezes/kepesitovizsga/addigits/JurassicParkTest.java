@@ -1,4 +1,6 @@
-package hu.nive.ujratervezes.kepesitovizsga.jurassic;
+/*
+package hu.nive.ujratervezes.kepesitovizsga;
+
 
 import org.flywaydb.core.Flyway;
 import org.junit.jupiter.api.BeforeEach;
@@ -40,3 +42,5 @@ class JurassicParkTest {
 
 
 }
+
+ */
