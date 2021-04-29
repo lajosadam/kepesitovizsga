@@ -1,4 +1,4 @@
-/*
+
 package hu.nive.ujratervezes.kepesitovizsga;
 
 
@@ -21,14 +21,9 @@ class JurassicParkTest {
     void init() throws SQLException {
         MariaDbDataSource dataSource;
         dataSource = new MariaDbDataSource();
-        dataSource.setUrl("jdbc:mariadb://localhost:3306/employees?useUnicode=true");
-        dataSource.setUser("employees");
-        dataSource.setPassword("employees");
-
-        Flyway flyway = Flyway.configure().dataSource(dataSource).load();
-
-        flyway.clean();
-        flyway.migrate();
+        dataSource.setUrl("jdbc:mariadb://localhost:3306/dinosaur?useUnicode=true");
+        dataSource.setUser("root");
+        dataSource.setPassword("12345");
 
         jurassicPark = new JurassicPark(dataSource);
 
@@ -43,4 +38,3 @@ class JurassicParkTest {
 
 }
 
- */
