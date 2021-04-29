@@ -1,4 +1,3 @@
-/*
 package hu.nive.ujratervezes.kepesitovizsga;
 
 
@@ -49,4 +48,3 @@ class MilitaryUnitTest {
     }
 }
 
- */
